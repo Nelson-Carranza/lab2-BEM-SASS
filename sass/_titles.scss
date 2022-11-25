@@ -1,0 +1,38 @@
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+
+  &__middle {
+    color: #4f4f4f;
+  }
+
+  &__principal {
+    color: #e27d60;
+  }
+}
+
+.bg-titles {
+  background-color: #e6e6e6;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.info {
+  &__principal {
+    color: #e27d60;
+  }
+}
+
+.block-ask {
+  &__title {
+    color: #4f4f4f;
+  }
+
+  &__titlee {
+    color: #fff;
+    font-size: 30px;
+  }
+}

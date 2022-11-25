@@ -1,0 +1,22 @@
+.principal-info img {
+  height: 90%;
+  width: 70%;
+  position: relative;
+  bottom: 60px;
+}
+
+.bg--pink {
+  position: relative;
+  padding: 60px 0;
+  &:after {
+    border-bottom-left-radius: 80px;
+    content: "";
+    width: 70%;
+    height: 90%;
+    background-color: #e8a87c;
+    z-index: -1;
+    position: absolute;
+    left: 380px;
+    top: 0;
+  }
+}

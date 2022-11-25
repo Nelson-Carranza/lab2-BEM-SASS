@@ -1,0 +1,12 @@
+.block-message {
+  color: #6e6e6e;
+  padding-left: 200px;
+}
+
+.block-images {
+  &__grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-left: 60px;
+  }
+}

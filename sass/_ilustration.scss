@@ -1,0 +1,11 @@
+.block-ilustration {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px 100px;
+  gap: 200px;
+
+  &__title {
+    color: rgb(16, 16, 16);
+    font-size: 30px;
+  }
+}

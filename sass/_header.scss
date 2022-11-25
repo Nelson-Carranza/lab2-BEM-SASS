@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  a {
+    color: rgb(18, 18, 18);
+  }
+
+  a:hover {
+    color: #e27d60;
+  }
+}
+
+.btn {
+  &__link {
+    background-color: transparent;
+    border: solid 2px #ffffff;
+    cursor: pointer;
+  }
+}

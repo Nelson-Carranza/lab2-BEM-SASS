@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+
+  &__principal {
+    font-weight: bold;
+  }
+
+  &__description {
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+  }
+
+  &__price {
+    color: #e27d60;
+    font-weight: bold;
+  }
+}

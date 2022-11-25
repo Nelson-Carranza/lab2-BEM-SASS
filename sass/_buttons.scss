@@ -1,0 +1,46 @@
+/* Tuve que poner Button, ya que
+no me deja aplicar el css solo 
+con la clase*/
+
+.btn-recycle button {
+  background-color: rgb(18, 18, 18);
+  border-radius: 2px;
+  border: transparent;
+  padding: 10px 42px;
+  color: #fff;
+
+  &:hover {
+    background-color: #e27d60;
+  }
+}
+
+.btn-bestseller button {
+  background-color: #e27d60;
+  border: transparent;
+  border-radius: 4px;
+  padding: 10px 42px;
+  font-size: 1.25rem;
+  color: #fff;
+
+  &:hover {
+    background-color: rgb(18, 18, 18);
+  }
+}
+
+.btn-cart button {
+  background-color: rgb(18, 18, 18);
+  border: transparent;
+  border-radius: 2px;
+  padding: 15px 230px;
+  color: #fff;
+
+  &:hover {
+    background-color: #e27d60;
+  }
+}
+
+.btn-img button {
+  background-color: transparent;
+  border: transparent;
+  border-radius: 2px;
+}

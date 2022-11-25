@@ -1,0 +1,62 @@
+footer {
+  background-color: #303030;
+  height: 270px;
+  color: #ffffff;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  width: 100%;
+}
+
+.milious-achor-recycle {
+  padding: 30px 100px 30px;
+  font-weight: 400;
+  font-size: 1.75rem;
+  color: #e6e6e6;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+.sect-info {
+  margin: 50px 50px 50px;
+
+  a {
+    color: #ffffff;
+  }
+
+  img {
+    margin-bottom: -5px;
+    margin-right: 5px;
+  }
+
+  &__title {
+    color: #e27d60;
+  }
+
+  &__list {
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+
+  &__item {
+    margin-bottom: 20px;
+  }
+}
+
+.block-copy {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 600px;
+  position: relative;
+  top: 100px;
+  left: -700px;
+
+  &__text {
+    width: 100px;
+    color: #7e7e7e;
+  }
+}

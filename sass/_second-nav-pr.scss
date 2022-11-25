@@ -1,0 +1,36 @@
+.bg-nav-second {
+  background-color: #e27d60;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 20px 20px;
+
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: rgb(31, 31, 31);
+  }
+}
+
+.block-massage {
+  display: flex;
+  padding: 30px 30px 30px;
+}
+
+.block-buy-oil {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.block-buy-oil img {
+  width: 100px;
+}
+
+.img-icons img {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}

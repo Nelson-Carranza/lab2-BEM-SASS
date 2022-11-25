@@ -1,0 +1,20 @@
+.block-serv-rev {
+  display: flex;
+  align-items: center;
+
+  &__comment {
+    border: solid 1px black;
+    background-color: #fff;
+    padding: 10px 10px 10px;
+  }
+}
+
+.block-person {
+  &__title {
+    color: #e27d60;
+  }
+
+  &__country {
+    color: #303030;
+  }
+}

@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #fff;
+  padding: 10px 150px;
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.block-text-foo {
+  background-image: url(../img/background-footer.png);
+  display: flex;
+  padding: 40px 40px 40px;
+}
+
+.info-foo {
+  font-size: 20px;
+  &__color {
+    color: #e27d60;
+  }
+}
